@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Janus Unity Exporter v2.14</title>
+  </head>
+  <body>
+    <FireBoxRoom>
+      <Assets>
+        <AssetObject src="NavMesh.fbx" id="NavMesh" />
+        <AssetObject src="Plane.fbx" id="Plane" />
+        <AssetImage src="Plane_Baked" id="Plane_Baked" />
+        <AssetImage src="grass.jpg" id="grass" />
+        <AssetObject src="Sphere.fbx" id="Sphere" />
+        <AssetImage src="Sphere_Baked" id="Sphere_Baked" />
+        <AssetImage src="rock_05_col.png" id="rock_05_col" />
+        <AssetImage src="Sphere_Baked" id="Sphere_Baked" />
+        <AssetImage src="SkyBoxLeft.jpg" id="SkyBoxLeft" />
+        <AssetImage src="SkyBoxRight.jpg" id="SkyBoxRight" />
+        <AssetImage src="SkyBoxForward.jpg" id="SkyBoxForward" />
+        <AssetImage src="SkyBoxBack.jpg" id="SkyBoxBack" />
+        <AssetImage src="SkyBoxUp.jpg" id="SkyBoxUp" />
+        <AssetImage src="SkyBoxDown.jpg" id="SkyBoxDown" />
+      </Assets>
+      <Room far_dist="500" skybox_front_id="SkyBoxForward" skybox_back_id="SkyBoxBack" skybox_left_id="SkyBoxLeft" skybox_right_id="SkyBoxRight" skybox_up_id="SkyBoxUp" skybox_down_id="SkyBoxDown">
+        <Object id="Plane" image_id="grass" lighting="true" col="1.00 1.00 1.00" pos="0 0 0" scale="1 1 1" rotation="0 0 0" collision_id="Plane" />
+        <Object id="Sphere" image_id="rock_05_col" lighting="true" col="1.00 1.00 1.00" pos="-1.9945 0.1600 1.3063" scale="1 1 1" rotation="0 0 0" />
+        <Object id="Sphere" image_id="rock_05_col" lighting="true" col="1.00 1.00 1.00" pos="1.5340 0.1600 1.3063" scale="0.3043 0.3043 0.3043" rotation="0 0 0" />
+      </Room>
+    </FireBoxRoom>
+  </body>
+</html>
